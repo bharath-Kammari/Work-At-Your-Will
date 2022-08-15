@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Worker</string>
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="map_key" translatable="false">AIzaSyDOlJHfChe65f8fJ9OORoKcC-faUyVGqzE</string>
+    <string name="no_location_detected">
+        No location detected. Make sure location is enabled on the device.
+    </string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+    <string-array name="professions"
+
+        >
+        <item>Select Profession</item>
+        <item>Electrician</item>
+        <item>Carpenter</item>
+        <item>Photographer</item>
+        <item>Internet Provider</item>
+        <item>Painter</item>
+        <item>Plumber</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

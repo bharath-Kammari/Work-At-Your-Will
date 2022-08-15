@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceRegister">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+
+            android:id="@+id/et_service_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_curve_bg"
+
+            android:hint="Enter Service name:"
+
+             />
+
+        <EditText
+            android:id="@+id/et_service_cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+
+            android:padding="12dp"
+            android:background="@drawable/edittext_curve_bg"
+            android:hint="Enter cost of Service:"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_service_desc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_margin="12dp"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:background="@drawable/edittext_curve_bg"
+            android:gravity="start"
+            android:hint="Enter Service Description:"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/addService"
+            android:background="@drawable/bt_round"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="add service" />
+
+        <TextView
+            android:id="@+id/skipAddService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:text="Skip for now" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
